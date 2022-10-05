@@ -1,0 +1,10 @@
+#Uso de condicionales
+altura=167
+
+if altura >= 180:
+    print ("eres alto, pero en la media eh...")
+else:
+    print("estas un poco por debajo de la media, pero no te preocupes")
+if altura <= 160:
+    print("joder, si que eres bajito, lo siento ")
+        
