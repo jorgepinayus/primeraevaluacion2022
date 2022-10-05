@@ -1,0 +1,5 @@
+def bucle_1():
+    for cont in range(1,10):
+        print(cont)
+        
+bucle_1()
