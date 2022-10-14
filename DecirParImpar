@@ -1,0 +1,13 @@
+def suma_par_impar():
+    suma_par=0
+    suma_impar=0
+    for x in range(0,21):
+        num=int(input("Dame un número: "))
+        if(num%2==0):
+            print("Tienes un número par")
+        else:
+            print("Tienes un número impar")
+            
+            
+suma_par_impar()
+     
