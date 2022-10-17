@@ -1,0 +1,10 @@
+def Saludos():
+    hora=int(input("Dime que hora es: "))
+    if(hora>=6 and hora<=12):
+        print("Buenos dias poir la mañana :)")
+    else:
+        if(hora>12 and hora<20):
+            print("Que tal la siesta?")
+        else:
+            primt("Buenasnoches bb")
+Saludos()
