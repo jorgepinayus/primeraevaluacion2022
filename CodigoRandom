@@ -1,0 +1,13 @@
+
+import time
+tiempo=strftime(%H:%M:%S, time.localtime())
+print ("La hora (en hora minutos y segundos) en tu país es: ", tiempo)
+
+tiempoh=imput("Introduce la hora")
+
+if tiempoh>"12":
+    print("Buenos dias")
+if "12" <= tiempoh < "18":
+    print("Buenas tardes")
+if tiempoh < "18":
+    print("Buenas noches")
