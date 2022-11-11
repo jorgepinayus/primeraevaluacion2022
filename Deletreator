@@ -1,0 +1,12 @@
+def deletreador():
+    palabra=input("Dame un palabra: ")
+    seguir=True
+    cont=0
+    while(seguir==True):
+        if(palabra[cont]!='/0'):
+            print(palabra[cont])
+            cont=cont+1
+        else: 
+            seguir=False
+            
+deletreador()
