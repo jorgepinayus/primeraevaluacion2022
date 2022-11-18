@@ -1,0 +1,23 @@
+def encriptador(clave):
+    
+    texto_encriptacion=clave.casefold()
+    return(texto_encriptacion)
+    
+def principal():
+    clave=input("Cual es su clave: ")
+    encriptacion=encriptador(clave)
+    print(encriptador(clave))
+    letras='abcdefghijklmnopqrstuvwxyz'
+    result=""
+    for x in range (0, len(encriptacion)):
+        for y in range(0,len(letras)):
+            if encriptacion[x] == letras[y]:
+                result=result+str(y+1)
+    for t in range(0,len(encriptacion)):
+        for g in range(0, 10):
+            if encriptacion[t] == str(g):
+                result=result+letras[g]
+    return(result)
+  
+print(principal())
+  
